@@ -1,1 +1,1 @@
-web: java -jar target/*.jar
+web: java -jar target/clients-death-prediction-0.0.1-SNAPSHOT.jar
