@@ -1,1 +1,1 @@
- web: java $JAVA_OPTS -cp target/classes:target/m2e-wtp/*.jar com.intercorp.clientsdeathprediction.ClientsDeathPredictionApplication
+ web: java -cp target/classes/:target/dependency/* com.intercorp.clientsdeathprediction.ClientsDeathPredictionApplication
