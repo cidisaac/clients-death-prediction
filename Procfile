@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* com.intercorp.clientsdeathprediction.ClientsDeathPredictionApplication server
+java -Dserver.port=$PORT $JAVA_OPTS -jar target/*.jar
