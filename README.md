@@ -29,14 +29,14 @@ https://www.getpostman.com/collections/a30e8e8c57e92dc3ba83
 Creacion de DB: 
 
 ```sql
-create table client
+CREATE TABLE client
 (
-    id         serial not null
-        constraint client_pk
-            primary key,
-    first_name text,
-    last_name  text,
-    age        integer,
-    birthdate  date
+    id         SERIAL NOT NULL
+        CONSTRAINT client_pk
+            PRIMARY KEY,
+    first_name TEXT,
+    last_name  TEXT,
+    age        INTEGER,
+    birthdate  DATE
 );
 ```
